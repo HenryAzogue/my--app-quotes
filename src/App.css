@@ -1,0 +1,61 @@
+#root {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App__card{
+  box-shadow: 2px 2px 8px rbga(0, 0, 0, 0.3);
+  width: 65%;
+  padding: 30px;
+  border-radius: 10px;
+  background: #FFF;
+
+  display: flex;
+
+}
+.App__card i{
+  padding: 0 15px;
+}
+.quote-box{
+  width: 100%;
+}
+.quote{
+  font-size: 1.4em;
+  text-align: center;
+}
+.author{
+  font-style: oblique;
+  font-size: 1em;
+  padding-top: 9px;
+  text-align: end;
+  margin-top: 10px;
+}
+.btn{
+  display:block;
+  margin-top: 15px;
+  padding-left: 95%;
+}
+
+.btn button{
+  background-color: #d1c6b6;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+.btn i{
+  align-items: end;
+  background: transparent;
+  /* padding-top: 13px; */
+  /* padding-right: 15px; */
+  cursor: pointer;
+  width: 100%;
+}
